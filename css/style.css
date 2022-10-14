@@ -132,9 +132,18 @@ img {
 
 .hero {
   text-align: center;
-  background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/heroimg.jpg);
+  min-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2f303a;
 }
 
 .hero-title {
@@ -197,6 +206,32 @@ img {
   width: calc((100% - 90px) / 3);
 }
 
+.advantage-item::before {
+  display: block;
+  margin-bottom: 30px;
+  content: '';
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+}
+
+.img-scope::before {
+  background-image: url('../img/advantage-1.svg');
+}
+
+.img-clock::before {
+  background-image: url('../img/advantage-2.svg');
+}
+
+.img-comp::before {
+  background-image: url('../img/advantage-3.svg');
+}
+
+.img-astronaut::before {
+  background-image: url('../img/advantage-4.svg');
+}
+
 .advantage-title {
   margin-bottom: 10px;
   font-size: 14px;
@@ -233,7 +268,8 @@ img {
 }
 
 .works-title,
-.team-title {
+.team-title,
+.clients-title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -273,6 +309,13 @@ img {
 .team-description {
   font-weight: 400;
   color: var(--primary-font-color);
+}
+
+/* --------------------------CLIENTS---------------------------- */
+
+.clients-list {
+  display: flex;
+  gap: 30px;
 }
 
 /* --------------------------FOOTER---------------------------- */
