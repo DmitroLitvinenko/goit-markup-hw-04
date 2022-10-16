@@ -206,17 +206,8 @@ img {
   width: calc((100% - 90px) / 3);
 }
 
-/* .advantage-item::before {
-  display: block;
-  margin-bottom: 30px;
-  content: '';
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
-} */
 .icon-advantage {
-  display: block;
+  display: flex;
   margin-bottom: 30px;
   width: 100%;
   background-color: #f5f4fa;
@@ -299,6 +290,10 @@ img {
 .team-description {
   font-weight: 400;
   color: var(--primary-font-color);
+}
+
+.social-link {
+  display: flex;
 }
 
 /* --------------------------CLIENTS---------------------------- */
