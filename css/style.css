@@ -141,6 +141,9 @@ img {
     url(../img/heroimg.jpg);
   min-width: 1600px;
   height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-left: auto;
   margin-right: auto;
   background-color: #2f303a;
