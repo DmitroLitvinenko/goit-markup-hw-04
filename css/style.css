@@ -125,7 +125,18 @@ img {
 }
 
 .contact-link {
+  display: flex;
+  gap: 10px;
   color: var(--primary-font-color);
+}
+
+.icon {
+  fill: currentColor;
+}
+
+.icon:hover,
+.icon:focus {
+  fill: currentColor;
 }
 
 /* --------------------------HERO---------------------------- */
@@ -211,8 +222,11 @@ img {
 
 .icon-advantage {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
-  width: 100%;
+  width: 270px;
+  height: 120px;
   background-color: #f5f4fa;
 }
 
